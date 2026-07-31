@@ -44,7 +44,7 @@ namespace Asistencia_Estudiante
 
      MessageBox.Show($"Resumen de asistencia:\nPresentes: {presentes}\nAusentes: {ausentes}");
  }
-
+ 
  
 
          private void btn_Salir_Click(object sender, EventArgs e)
