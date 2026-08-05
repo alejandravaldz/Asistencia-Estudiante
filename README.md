@@ -1,7 +1,8 @@
 # 📘 Proyecto: Control de Asistencia en C#
 
 ## 📌 Descripción
-Este es un progrma consiste en crear una aplicacion sencilla que nos permita
+
+Este programa consiste en permitir al usuario Registrar el liente conta de un Formulario con validación de campos y ListBox que acumula los clientes registrados.
 ---
 
 ## 🚀 Funcionalidades
@@ -20,13 +21,20 @@ Este es un progrma consiste en crear una aplicacion sencilla que nos permita
 
 ## 📂 Estructura del código
 El programa se organiza de la siguiente manera
+
 -**Espacio de Nombrre:** Registro_Cliente
+
 -**Clase principal:** Form1
+
 -**Evento:**
 -btn_Guardar_Click:
+
 -Valida que los campos no estén Vacíos.
+
 -Muestra un mensaje de advertencia si falta algun campo por llena.
+
 -Agrega el nuevo cliente a la lista.
+
 -Se limpian los campos para nueva entrada de datos.
 
 ---
