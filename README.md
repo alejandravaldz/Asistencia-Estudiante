@@ -1,13 +1,14 @@
 # 📘 Proyecto: Control de Asistencia en C#
 
 ## 📌 Descripción
-
+Este es un progrma consiste en crear una aplicacion sencilla que nos permita
 ---
 
 ## 🚀 Funcionalidades
-- Entrada de datos ().
-- Almacenamiento dinámico en una lista.
-
+- Entrada de datos mediante campos de texto (Nombre, Teléfono, Correo).
+- Validación de campos obligatorios (no permite guardar si falta algún dato).
+- Almacenamiento dinámico en una lista de clientes.
+- Limpieza automática de los campos tras guardar un registro.
 
 ---
 
@@ -18,7 +19,15 @@
 ---
 
 ## 📂 Estructura del código
-
+El programa se organiza de la siguiente manera
+-**Espacio de Nombrre:** Registro_Cliente
+-**Clase principal:** Form1
+-**Evento:**
+-btn_Guardar_Click:
+-Valida que los campos no estén Vacíos.
+-Muestra un mensaje de advertencia si falta algun campo por llena.
+-Agrega el nuevo cliente a la lista.
+-Se limpian los campos para nueva entrada de datos.
 
 ---
 ## 🖼️ Captura de Ejecución
